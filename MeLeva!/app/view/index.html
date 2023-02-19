@@ -1,0 +1,30 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--    <meta charset='utf-8'>-->
+<!--    <title>MeLeva!</title>-->
+<!--    <link rel="stylesheet" href="../static/bootstrap.css">-->
+<!--</head>-->
+<!--<body>-->
+<!--    <br><br>-->
+<!--    <h1>Bem-vindo à home page do MeLeva!</h1>-->
+<!--    <h2>Selecione uma das opções abaixo:</h2>-->
+<!--    </h2>-->
+<!--    <br>-->
+<!--    <a href="login">Login</a><br>-->
+<!--    <a href="signin">Cadastre-se</a><br>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--Adaptadando o index extender do template-->
+{% extends "template.html" %}
+{% block conteudo %}
+    <br><br>
+<!--Centralizado-->
+    <div class="text-center">
+        <h1>Bem-vindo ao MeLeva!</h1>
+        <h2>Selecione uma das opções abaixo:</h2>
+        <br>
+        <a class="btn btn-primary" href="login">Login</a>
+        <a class="btn btn-primary" href="signin">Cadastre-se</a>
+    </div>
+{% endblock %}

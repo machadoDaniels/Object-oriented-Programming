@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" href="../static/bootstrap.css">
+    <link rel="stylesheet" href="../static/qualquer.css">
+</head>
+<body class="d-container">
+        <h1>Insira seus dados para se cadastrar</h1>
+        <form method="POST" action="signin">
+        <div><br>
+            <label for="nome">Nome:</label>
+            <input class="form-control" type="text" id="nome" name="nome" placeholder="Digite o seu Nome aqui.">
+        </div>
+        <div><br>
+            <label for="cpf">CPF:</label>
+            <input class="form-control" type="text" id="cpf" name="cpf" placeholder="Digite o seu CPF aqui.">
+        </div>
+        <div><br>
+            <label for="email">E-mail:</label>
+            <input class="form-control" type="text" id="email" name="email" placeholder="Digite o seu E-mail aqui.">
+        </div>
+        <div><br>
+            <label for="usuario">Usuário:</label>
+            <input class="form-control" type="text" id="usuario" name="usuario" placeholder="Digite o seu Usuário aqui.">
+        </div>
+        <div><br>
+            <label for="senha">Senha:</label>
+            <input class="form-control" type="password" id="senha" name="senha" placeholder="Digite a sua Senha aqui.">
+        </div>
+        <div><br>
+            <label for="nMatricula">Número de Matrícula:</label>
+            <input class="form-control" type="text" id="nMatricula" name="nMatricula" placeholder="Número de matrícula.">
+        </div>
+        <div><br>
+            <label for="bday">Data de Nascimento:</label>
+            <input class="form-control" type="datetime-local" id="bday" name="bday" placeholder="Insira a sua data de Nascimento.">
+        </div><br>
+<!--         Centralizar-->
+        <div class="text-center">
+            <input class="btn btn-primary" type="submit" name="enviar" value="Cadastrar">
+            <input class="btn btn-primary" type="reset" name="limpar" value="Limpar">
+        </div>
+    </form><br>
+    <br>
+    <a href="index">Página Inicial</a>
+</body>
+</html>

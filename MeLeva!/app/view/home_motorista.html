@@ -1,0 +1,37 @@
+{% extends "template.html" %}
+{% block conteudo %}
+<!--Botão para configurar perfil no canto direito em cima da tela-->
+    <div class="pull-right">
+        <a class="btn btn-primary" href="perfil">Perfil</a>
+    <br><br>
+<!--Centralizado-->
+    <div class="text-center">
+
+        <br>
+<!--        Botão para buscar local-->
+<!--        Botão a direita-->
+<!--        Botão para selecionar horário-->
+                <div><br>
+            <label for="bday">Data da Viagem:</label>
+            <br>
+            <input class="form-control" type="datetime-local" id="bday" name="bday" placeholder="Insira o horário da viagem.">
+<!--            <input class="form-control" type="datetime-local" id="bday" name="bday" placeholder="Insira a sua data de Nascimento.">-->
+        </div><br>
+        <a class="btn btn-primary pull-right" href="atividade_motorista">Buscar Local</a>
+        <br><br>
+
+<!--        Deixar as 3 caixas com o mesmo tamanho-->
+        <div class="row">
+            <div class="col-sm-4">
+                <a class="btn btn-primary" href="atividade_motorista">Samambaia</a>
+            </div>
+            <div class="col-sm-4">
+                <a class="btn btn-primary" href="atividade_motorista">Universitário</a>
+            </div>
+            <div class="col-sm-4">
+                <a class="btn btn-primary" href="atividade_motorista">Casa</a>
+            </div>
+
+
+    </div>
+{% endblock %}

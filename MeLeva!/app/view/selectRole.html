@@ -1,0 +1,33 @@
+<!--Adaptadando para extender do template-->
+{% extends "template.html" %}
+{% block conteudo %}
+<!--Centralizando select Role-->
+    <div class="text-center">
+    <br><br>
+  <h1>Hoje você vai de que?</h1>
+  <h2>Escolha uma das opções abaixo:</h2>
+<!--        Centralizar-->
+        <div class="text-center">
+        <div class="row">
+<!--            Centralizar-->
+
+        <div class="col-sm-4"><br>
+            <a class="btn btn-primary" href="home_motorista">Motorista</a>
+        </div>
+        <div class="col-sm-4"><br>
+            <a class="btn btn-primary" href="home">Passageiro</a>
+        </div></br>
+        </div>
+        </div>
+<!--  <form action="/home_motorista" method="post">-->
+<!--    <input type="radio" id="motorista" name="role" value="motorista">-->
+<!--&lt;!&ndash; Aumentando Fonte&ndash;&gt;-->
+<!--    <label for="motorista"><h2>MOTORISTA</h2></label><br>-->
+<!--     </form>-->
+<!--    <form action="/home" method="post">-->
+<!--    <input type="radio" id="passageiro" name="role" value="passageiro">-->
+<!--    <label for="passageiro"><h2>PASSAGEIRO</h2></label><br>-->
+<!--    <input class="btn btn-primary" type="submit" value="Confirmar">-->
+<!--  </form>-->
+<!--    </div>-->
+{% endblock %}
